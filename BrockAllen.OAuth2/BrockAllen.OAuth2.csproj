@@ -81,13 +81,11 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="Thinktecture.IdentityModel, Version=3.6.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Thinktecture.IdentityModel.3.6.1\lib\net45\Thinktecture.IdentityModel.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base64Url.cs" />
     <Compile Include="Constants.cs" />
+    <Compile Include="CryptoRandom.cs" />
     <Compile Include="LinkedInProvider.cs" />
     <Compile Include="OAuth2Client.cs" />
     <Compile Include="Provider.cs" />

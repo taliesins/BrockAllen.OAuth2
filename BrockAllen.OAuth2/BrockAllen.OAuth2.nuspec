@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>BrockAllen.OAuth2</id>
-    <version>2.3.0</version>
+    <version>2.3.1</version>
     <authors>BrockAllen</authors>
     <owners>BrockAllen</owners>
     <licenseUrl>https://github.com/brockallen/BrockAllen.OAuth2/blob/master/license.txt</licenseUrl>
@@ -14,8 +14,11 @@
     <copyright>Copyright 2013</copyright>
     <tags>OAuth2 Claims</tags>
     <dependencies>
-      <dependency id="Newtonsoft.Json" version="4.5.11" />
-      <dependency id="Thinktecture.IdentityModel" version="2.4.2" />
+      <dependency id="Newtonsoft.Json" version="6.0.5" />
     </dependencies>
   </metadata>
+    <files>
+	  <file src="bin\release\BrockAllen.OAuth2.dll" target="lib/net45" />
+      <file src="bin\release\BrockAllen.OAuth2.pdb" target="lib/net45" />
+  </files> 
 </package>

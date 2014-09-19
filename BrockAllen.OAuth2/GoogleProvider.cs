@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Security.Claims;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BrockAllen.OAuth2
 {
     class GoogleProvider : Provider
     {
-
-
         public GoogleProvider(string clientID, string clientSecret, string scope)
             : base(ProviderType.Google,                
                 "https://accounts.google.com/o/oauth2/auth",
